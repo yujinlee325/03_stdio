@@ -9,12 +9,21 @@
 #include <stdio.h>
 
 int main(int argc, const char * argv[]) {
-    char c;
-    printf("input an alphabet :");
-    scanf("%c", &c);
+   
+    int a;
+    float b;
+    printf("input two integers :");
+    scanf("%d %f", &a, &b);
     
-    printf("input alphabet is %c (%d), and the next one is %c (%d)\n", c, c, c+1, c+1);
+    printf("result is %f\n", a/b);
+    /*
+     int a,b;
+     
+     printf("input two integers :");
+     scanf("%d %d, &a,&b);
+     
+     printf("result is %f\n", (floot)a/b);
+     */
     
-
     return 0;
 }
